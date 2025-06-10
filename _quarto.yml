@@ -1,0 +1,46 @@
+# project:
+#   type: website
+
+# website:
+#   title: "nermo-appendix"
+#   navbar:
+#     left:
+#       - href: index.qmd
+#         text: Home
+#       - about.qmd
+
+# format:
+#   html:
+#     theme:
+#       - cosmo
+#       - brand
+#     css: styles.css
+#     toc: true
+
+project:
+  type: website
+
+bibliography: references.bib
+link-citations: true
+csl: ieee.csl  # Add this line to change the style
+
+website:
+  title: "Appendix"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    grid:
+      body-width: 800px
+    # --- ADD THIS BLOCK TO ENABLE MATHJAX AND DEFINE THE MACRO ---
+    mathjax:
+      macros:
+        bm: "{\\boldsymbol{#1}}"
+        
+
+
