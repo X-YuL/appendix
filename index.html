@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Appendix</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-f072a1559036f38ae232366b9934da82.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Appendix</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#a1-simulation-settings-and-modeling" id="toc-a1-simulation-settings-and-modeling" class="nav-link active" data-scroll-target="#a1-simulation-settings-and-modeling">A1 Simulation settings and modeling</a></li>
+  <li><a href="#a2-policy-training" id="toc-a2-policy-training" class="nav-link" data-scroll-target="#a2-policy-training">A2 Policy training</a></li>
+  <li><a href="#a3-curriculum-weights-ablation-study" id="toc-a3-curriculum-weights-ablation-study" class="nav-link" data-scroll-target="#a3-curriculum-weights-ablation-study">A3 Curriculum Weights Ablation study</a></li>
+  <li><a href="#a4-central-pattern-generator" id="toc-a4-central-pattern-generator" class="nav-link" data-scroll-target="#a4-central-pattern-generator">A4 Central pattern generator</a></li>
+  <li><a href="#a5-model-based-controller-and-optimization" id="toc-a5-model-based-controller-and-optimization" class="nav-link" data-scroll-target="#a5-model-based-controller-and-optimization">A5 Model-based controller and optimization</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Appendix</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="a1-simulation-settings-and-modeling" class="level2">
+<h2 class="anchored" data-anchor-id="a1-simulation-settings-and-modeling">A1 Simulation settings and modeling</h2>
+<p>As simulation plays a crucial role in this study, we will explain the modeling process for the simulation agent. The simulator employed in this research is MuJoCo <span class="citation" data-cites="todorov2012mujoco"><a href="#ref-todorov2012mujoco" role="doc-biblioref">[1]</a></span>. The visualization of the simulation model is presented in <a href="#fig-sim-model" class="quarto-xref">Figure&nbsp;1</a>.</p>
+<p>The high-fidelity visual appearance of the model (<a href="#fig-sim-model" class="quarto-xref">Figure&nbsp;1</a> A, C) utilized meshed files exported from CAD software. The simulated entity is modeled using boxes and capsules, as depicted in <a href="#fig-sim-model" class="quarto-xref">Figure&nbsp;1</a> B, D. The mass and inertia properties were estimated by attributing appropriate materials to each component in the CAD software. Notably, the spine tendon is assigned a fixed length, enabling force transfer during pull behavior while exerting no force during push behavior. To more accurately replicate the mechanical characteristics of the flexible spine, each spine joint is modeled as a virtual spring-damper system. The parameters of these systems are determined via thorough evaluation using finite element analysis (FEA) simulations. The tail is modeled similarly to the spine. A revolute joint model is employed for the articulation of leg joints. Each motor within MuJoCo is assigned a control and torque range (see table <a href="#tbl-torque" class="quarto-xref">Table&nbsp;1</a>), consistent with the corresponding joint’s action space and closely mimicking real-world servos’ characteristics.</p>
+<div id="fig-sim-model" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Simulation model of the mouse robot in MuJoCo" data-fig-cap="Figure A5: Simulation model of the mouse robot in MuJoCo.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sim-model-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/fig_sim_model_0.svg" class="img-fluid figure-img" data-fig-cap="Figure A5: Simulation model of the mouse robot in MuJoCo." alt="Simulation model of the mouse robot in MuJoCo">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sim-model-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Simulation model of the mouse robot in MuJoCo. (A) Side view of the high-fidelity visual appearance of digital the mouse robot. (B) Side view of rigid body parts (transparent convex part), joints (blue arrows), and tendons involved in the physical simulation. (C) Top view of digital the mouse robot. (D) Top view of simulation entity.
+</figcaption>
+</figure>
+</div>
+<div id="tbl-torque" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30,35,35]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-torque-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Table A2: Control and torque ranges of motors in MuJoCo.
+</figcaption>
+<div aria-describedby="tbl-torque-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 35%">
+<col style="width: 35%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Motor</th>
+<th>Control range [rad]</th>
+<th>Torque range [Nm]</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Knee/elbow</td>
+<td>[-2.6, 1]</td>
+<td>[-0.157, 0.157]</td>
+</tr>
+<tr class="even">
+<td>Hip/shoulder</td>
+<td>[-2.6, 0.2]</td>
+<td>[-0.157, 0.157]</td>
+</tr>
+<tr class="odd">
+<td>Spine</td>
+<td>[-0.47, 0.47]</td>
+<td>[-0.157, 0.157]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="a2-policy-training" class="level2">
+<h2 class="anchored" data-anchor-id="a2-policy-training">A2 Policy training</h2>
+<p>We use the proximal policy optimization (PPO) algorithm <span class="citation" data-cites="schulman2017proximal"><a href="#ref-schulman2017proximal" role="doc-biblioref">[2]</a></span> to train the neural network controller, MuJoCo <span class="citation" data-cites="todorov2012mujoco"><a href="#ref-todorov2012mujoco" role="doc-biblioref">[1]</a></span> as physics engine, OpenAI Gym <span class="citation" data-cites="brockman2016openai"><a href="#ref-brockman2016openai" role="doc-biblioref">[3]</a></span> as API between learning algorithm and environments in combination with Stable Baselines 3 <span class="citation" data-cites="stable-baselines3"><a href="#ref-stable-baselines3" role="doc-biblioref">[4]</a></span>, which provides open-source implementation of deep RL algorithms in Python. The hyperparameters used for the PPO algorithm are given in table <a href="#tbl-hyperparameters" class="quarto-xref">Table&nbsp;2</a>. <!-- The open-access code is provided at this repository\footnote{\url{https://github.com/zhenshan-bing/RL_Nermo}\label{refnote}}. --> We train our policy network on a computer with an i7-8565U CPU. A total of 8 million time steps are used for training. The maximum number of time steps in an episode is 2000. With the environment settings of 10 ms per time step, the training takes about 22 hours in total simulation time and 3 hours in wall clock time for the policy to converge.</p>
+<div id="tbl-hyperparameters" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[50,50]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-hyperparameters-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Table A3: Hyperparameters for PPO used in our experiments.
+</figcaption>
+<div aria-describedby="tbl-hyperparameters-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Hyperparameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Learning rate (<code>learning_rate</code>)</td>
+<td>0.0003</td>
+</tr>
+<tr class="even">
+<td>Number of steps (<code>n_steps</code>)</td>
+<td>2048</td>
+</tr>
+<tr class="odd">
+<td>Minibatch size (<code>batch_size</code>)</td>
+<td>64</td>
+</tr>
+<tr class="even">
+<td>Number of epochs (<code>n_epochs</code>)</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>Discount factor <span class="math inline">\(\gamma\)</span> (<code>gamma</code>)</td>
+<td>0.99</td>
+</tr>
+<tr class="even">
+<td>GAE lambda <span class="math inline">\(\lambda\)</span> (<code>gae_lambda</code>)</td>
+<td>0.95</td>
+</tr>
+<tr class="odd">
+<td>Clip range (<code>clip_range</code>)</td>
+<td>0.2</td>
+</tr>
+<tr class="even">
+<td>Entropy coefficient (<code>ent_coef</code>)</td>
+<td>0.0</td>
+</tr>
+<tr class="odd">
+<td>Value function coefficient (<code>vf_coef</code>)</td>
+<td>0.5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p><a href="#fig-rewards" class="quarto-xref">Figure&nbsp;2</a> A and B show the learning curves for the environment. In both settings, whether utilizing the spine or not, we observe a rapid increase in the overall reward as training progresses, alongside the primary reward that reflects the agent’s velocity. The secondary reward, which reflects energy efficiency, starts at a low value at the onset of training, during which the agent is initially immobile. As the agent’s movement capability develops, there is a corresponding rise in energy consumption. Towards the end of the training, when the weight of the secondary reward peaks, the agent demonstrates an improvement in moving efficiently, thereby reducing energy costs. Initially, the penalty begins at a negative value, indicating the agent’s unexpected contact with the ground. However, as training advances, this penalty steadily increases toward zero, signifying the development of a stable walking pattern. In the end, all the reward components converge at a stable level.</p>
+<p><a href="#fig-rewards" class="quarto-xref">Figure&nbsp;2</a> C and D illustrate the learning curves for the turning environment. The overall reward, which shows gradual improvement, indicates that the agent successfully learns to execute the turning task, adhering to a desired radius, and eventually reaches convergence at the end of the training stage. In the scenario involving the spine, the primary reward exhibits a more stable pattern and is significantly higher, suggesting that the spine plays a key role in facilitating smoother turning movements. In terms of the secondary reward, a pattern characterized by an initial increase, subsequent decrease, and eventual stabilization emerges. This phenomenon is intimately linked to the implementation of a termination criterion within the turning environments. This criterion dictates that an episode concludes when the agent’s deviation from the turning center exceeds a threshold of <span class="math inline">\(0.1\)</span> meters relative to the commanded turning radius, or when the agent’s torso makes contact with the ground. This measure is essential for ensuring that the agent’s turning behavior remains aligned with the specified turning radius command. The secondary reward value is closely associated with the duration of each episode. A pivotal factor in this relationship is the yaw angle of the agent’s body, which serves as an indicator of its directional orientation. A significant divergence of the yaw angle from the intended direction (equal to the turned angle) results in a near-zero secondary reward, precipitating the termination of the episode due to directional inaccuracies. At the beginning of the training process, there is an observable increase in both the secondary reward and the episode duration. This initial phase is marked by the agent’s acquisition of skills to avoid contact with the ground, however, without achieving mobility. As the training progresses, a decline in these metrics is noted, attributable to the agent’s increasing inclination to deviate from the designated path as it learns to move. This deviation results in shorter episode duration and, thus, lower secondary reward. In the final phase of training, a plateau in the episode duration and secondary reward is reached, indicating the agent’s enhanced proficiency in executing turning maneuvers within the constraints of the desired turning radius. This trajectory of the secondary reward and episode duration is indicative of the learning process and the agent’s ability to conform to turning radius commands. Similar to the walking task, the penalty initially registers as a large negative value but rapidly stabilizes to zero, demonstrating the agent’s capability for stable turning without unexpected behaviors.</p>
+<div id="fig-rewards" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Learning curves of walking and turning tasks" data-fig-cap="Figure A6: Learning curves of the walking and turning tasks.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-rewards-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/fig_rewards_2.svg" class="img-fluid figure-img" data-fig-cap="Figure A6: Learning curves of the walking and turning tasks." alt="Learning curves of walking and turning tasks">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-rewards-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Learning curves of the walking and turning tasks.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="a3-curriculum-weights-ablation-study" class="level2">
+<h2 class="anchored" data-anchor-id="a3-curriculum-weights-ablation-study">A3 Curriculum Weights Ablation study</h2>
+<!-- ### A2.1 Curriculum Weights -->
+<p>We begin by highlighting the challenge of determining an appropriate energy consumption penalty weight. This is done by examining the training curves at constant energy penalty weights of <span class="math inline">\(0.04\)</span>, <span class="math inline">\(0.07\)</span>, and <span class="math inline">\(0.1\)</span> (<span class="math inline">\(\boldsymbol{k^t_c}\)</span> in Eq.1). Subsequently, we demonstrate the effectiveness of the reward curriculum approach by comparing its performance with training without the curriculum. The policies for this ablation study are trained in the environment and with spinal flexion, as the additional spine actuation increases the training difficulty.</p>
+<div id="fig-ablation-weight" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Ablation study on curriculum learning" data-fig-cap="Figure A7: Ablation study on the curriculum learning factor $k_e$.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ablation-weight-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/ablation_weight.svg" class="img-fluid figure-img" style="width:60.0%" data-fig-cap="Figure A7: Ablation study on the curriculum learning factor $k_e$." alt="Ablation study on curriculum learning">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ablation-weight-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Ablation study on the curriculum learning factor.
+</figcaption>
+</figure>
+</div>
+<p><a href="#fig-ablation-weight" class="quarto-xref">Figure&nbsp;3</a> illustrates that increasing the energy consumption penalty weight <span class="math inline">\(k_e\)</span> effectively reduces power consumption. However, this improvement comes at the expense of the primary goal, i.e., velocity tracking. For instance, applying a constant energy penalty of <span class="math inline">\(0.1\)</span> reduces the velocity tracking reward by approximately 30% compared to an agent trained with a constant energy penalty of <span class="math inline">\(0.04\)</span>. Moreover, using a constant energy penalty weight of 0.07 and 0.1 leads to substantial power and velocity tracking reward variances, indicating the instability of training, where the agent may become trapped in sub-optimal states like standing still or moving slowly to conserve energy.</p>
+<p>In contrast to a fixed energy penalty weight, the reward curriculum approach gradually increases the energy penalty weight during training. By enabling the agent to focus on different criteria at various training stages, both training efficiency and final performance can be improved.<br>
+As depicted in <a href="#fig-ablation-weight" class="quarto-xref">Figure&nbsp;3</a>, the trial employing the reward curriculum (indicated by the red curve with <span class="math inline">\(k^{max}_e = 0.1\)</span>) initially exhibits a rise in power consumption as it strives to achieve the primary objective (velocity tracking). On the one hand, over time, power consumption gradually diminishes as the weight parameter <span class="math inline">\(k_e\)</span> increases. On the other hand, the reward associated with the primary goal continues to increase steadily until full convergence is achieved. When comparing the velocity-tracking reward curve between training with a reward curriculum and training without one, it becomes evident that the reward curriculum plays a vital role in stabilizing the training process. This is especially noticeable when a high energy penalty weight of <span class="math inline">\(0.1\)</span> is employed. With the reward curriculum, the results show a substantial increase in velocity-tracking rewards and reduced variance. This outperforms training performance with a constant energy penalty weight set at 0.07 and 0.1. This method allows a higher energy penalty weight to decrease power consumption while preventing instability and failure in learning the velocity tracking caused by a high constant energy penalty weight. As shown in <a href="#fig-ablation-weight" class="quarto-xref">Figure&nbsp;3</a>, the energy efficiency is effectively improved, surpassing the energy efficiency achieved through constant energy penalties of 0.04 and 0.07.</p>
+<!-- ### A2.2 Action clipping
+
+In this section, we illustrate the impact of action space clipping on the acquisition of optimal locomotion skills.
+
+![The ablation study on the action space clipping.](images/ablation_clipping.svg){#fig-ablation-clipping width="60%" fig-alt="Ablation study on action space clipping" fig-cap="Figure A8: The ablation study on the action space clipping."} -->
+</section>
+<section id="a4-central-pattern-generator" class="level2">
+<h2 class="anchored" data-anchor-id="a4-central-pattern-generator">A4 Central pattern generator</h2>
+<p>The proposed sim-to-real approach encodes the learned gait as a combination of rhythmic signals, each linked to a specific motor. However, this method has its limitations: it can only generate a set of distinct gait parameters tailored for anticipated behaviors and lacks the ability to modify its gait online. % In the ever-changing environment of real-world applications, this rigidity is a significant drawback. To address this issue, we suggest the integration of a central pattern generator (CPG) controller. This addition aims to implement the gait transition process, facilitating a seamless shift from one set of gait parameters to another, thus enhancing adaptability in practical tasks.</p>
+<div id="fig-cpg" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Learning curves of walking and turning tasks" data-fig-cap="Figure A6: Learning curves of the walking and turning tasks.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-cpg-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/cpg.svg" class="img-fluid figure-img" data-fig-cap="Figure A6: Learning curves of the walking and turning tasks." alt="Learning curves of walking and turning tasks">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cpg-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Central pattern generator controller for modifying gait parameters.The concept visualization of the CPG controller. Notably, the nine neurons in the CPG controller correspond to the nine motors of the robot. (B), (C), (D), and (E) illustrate the motor oscillations influenced by parameter transitions, wherein the parameters (defined in Eq.13) include frequency <span class="math inline">\(f\)</span>, amplitude <span class="math inline">\(A\)</span>, mean offset <span class="math inline">\(D\)</span>, and phase shift <span class="math inline">\(\varphi\)</span>. The black points mark the initiation of changes in gait parameters. The red line represents the parameter change of the default controller, which directly switches gait parameters from one group to another. The blue line represents the parameter change of the CPG controller.
+</figcaption>
+</figure>
+</div>
+<p>As illustrated in <a href="#fig-cpg" class="quarto-xref">Figure&nbsp;4</a> A, the CPG controller is composed of nine neurons. Each neuron is responsible for the oscillation of one of the nine motors that generate the learned gaits. Notably, a central neuron is tasked with modulating spinal flexion and coordinating limb movement. For each limb, a pair of neurons control the motor oscillations, namely, one for the elbow/knee joint and another for the shoulder/hip joint. The oscillations of these two neurons are interdependent, ensuring coordinated movement. % In this context, the oscillator of neurons can be defined as The oscillator model of the neuron is defined as <span id="eq-oscillator"><span class="math display">\[
+\begin{cases}
+x(t) = A \cdot \cos(2 \pi f t + \varphi) + D, \\
+s(t) = A \cdot \sin(2 \pi f t + \varphi) + D, \\
+r'(t) = \sqrt{{x(t)}^2+{s(t)}^2}, \\
+\frac{\partial x(t)}{\partial t}  =k_p(\frac{{A}^2-{r'(t)}^2}{A})\frac{x(t)}{A} - 2 \pi f s(t), \\
+\frac{\partial s(t)}{\partial t} =k_p(\frac{{A}^2-{r'(t)}^2}{A})\frac{s(t)}{A} + 2 \pi f x(t).
+\end{cases}
+\tag{1}\]</span></span> The motor command <span class="math inline">\(s(t)\)</span> is defined in <a href="#eq-oscillator" class="quarto-xref">Equation&nbsp;1</a>. %Considering the oscillator is formulated on the theory of circular limit cycle, an additional hidden variable <span class="math inline">\(x(t)\)</span> is introduced to complement <span class="math inline">\(y(t)\)</span> and facilitate the formation of a circular limit cycle. %The real-time radius of the virtual circular limit cycle formed by <span class="math inline">\(x(t)\)</span> and <span class="math inline">\(y(t)\)</span> is denoted as <span class="math inline">\(r'(t)\)</span>. Considering the oscillator is formulated on the theory of circular limit cycle, an additional hidden variable <span class="math inline">\(x(t)\)</span> is introduced to complement <span class="math inline">\(s(t)\)</span> and facilitate the formation of a virtual circular limit cycle. The radius of the virtual cycle formed by <span class="math inline">\(x(t)\)</span> and <span class="math inline">\(s(t)\)</span> is denoted as <span class="math inline">\(r'(t)\)</span>. And <span class="math inline">\(k_p\)</span> is a constant that affects the convergence rate of the circular limit cycle. Based on the oscillator defined in <a href="#eq-oscillator" class="quarto-xref">Equation&nbsp;1</a>, the changes of <span class="math inline">\(s(t)\)</span> and <span class="math inline">\(x(t)\)</span> over time step are <span class="math display">\[
+\begin{cases}
+s(t) = s(t-\sigma) + \sigma \cdot \frac{\partial s(t-\sigma)}{\partial t} \text{,}\\
+x(t) = x(t-\sigma) + \sigma \cdot \frac{\partial x(t-\sigma)}{\partial t} \text{,}
+\end{cases}
+\]</span> where <span class="math inline">\(\sigma\)</span> is the minimal time step. By utilizing neurons modeled after this oscillator, the implemented CPG controller adeptly facilitates smooth transitions in gait parameters. <a href="#fig-cpg" class="quarto-xref">Figure&nbsp;4</a> B, C, D, and E provide a comparative analysis of the control parameter transitions between the default controller and the CPG controller. In this context, the developed CPG controller can effectively ensure smooth gait transitions.</p>
+</section>
+<section id="a5-model-based-controller-and-optimization" class="level2">
+<h2 class="anchored" data-anchor-id="a5-model-based-controller-and-optimization">A5 Model-based controller and optimization</h2>
+<!-- In our prior work \cite{9981674}, we developed a trot gait that can leverage the lateral flexion of the spine, which outperforms non-spine-based trot gait in terms of velocity. -->
+<p>Three main factors determine the performance of a particular trot gait, namely, the gait frequency, lateral spine flexion, and normalized stride length. The normalized stride length is defined as the percentage of the maximum stride length of the trot gait. To ensure a fair comparison between the model-based controller and the neural network controller, we first utilize the grid search method to generate a variety of gaits and identify parameter combinations that yield the best energy efficiency for three gaits. Since the chosen range and intervals of the gird search parameters can also influence the performance of gaits, we further adopt the Bayesian optimization method to select energy-efficient gaits for a fair comparison.</p>
+<p>The grid search method generates a Cartesian product from the parameters in <a href="#tbl-grid-search-param" class="quarto-xref">Table&nbsp;3</a>, resulting in <span class="math inline">\(1900\)</span> sets of parameters for the trot gait. Each set of motion parameters is then tested by simulating 1000 steps in the simulation environment. To collect valid experimental data, we ignore the first <span class="math inline">\(200\)</span> time steps and evaluate the remaining 800 time steps. This is because we have observed that the robot requires approximately 200 time steps to accelerate before it moves at a steady speed.</p>
+<div id="tbl-grid-search-param" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[35, 65]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-grid-search-param-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Gait parameters used for the grid search algorithm for the trot walking.
+</figcaption>
+<div aria-describedby="tbl-grid-search-param-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 65%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Parameters</th>
+<th style="text-align: left;">Values</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Frequency [Hz]</td>
+<td style="text-align: left;">[0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6,1.8, 2.0]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Spine angle [deg]</td>
+<td style="text-align: left;">[0, 2, 4, 8, 10, 12, 14, 16, 18, 20]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Normalized stride length [%]</td>
+<td style="text-align: left;">[10, 15, 20, 25, 30, 35, 40, 45, 50, 55,60, 65, 70, 75, 80, 85, 90, 95, 100]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>The goal of the Bayesian optimization method is to identify an optimized set of parameters that enable the robot to achieve the fastest speeds for three types of gaits. The parameter boundaries are set to the same values as those listed in Table <a href="#tbl-grid-search-param" class="quarto-xref">Table&nbsp;3</a>. <!-- Implementation can be found in the source code./ --></p>
+<div id="fig-baye" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-baye-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/bayesian_nospine_all.svg" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-baye-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Performance of the model-based controller. This scatter plot shows the energy-consumption results of controllers at a range of velocities in the simulation. The blue and orange dots represent the performance of the model-based controller optimized by the grid search algorithm, with and without using the spine. The red squares and red triangles represent the performance of the controller optimized by the Bayesian optimization, with and without using the spine.
+</figcaption>
+</figure>
+</div>
+<p>The power consumption and corresponding velocity results from the grid search algorithm are shown in <a href="#fig-baye" class="quarto-xref">Figure&nbsp;5</a> as a point cloud of gaits using dot markers. The orange dots are the gaits without the spine and the blue dots are the gaits with the spine. At varying velocities within the point cloud, the lowest points exhibit the highest levels of energy efficiency. Notably, we observe that as velocity increases, the power consumption of these gaits also rises. The red triangles and red squares represent the energy-efficient gaits that were discovered through Bayesian optimization. These gaits closely align with the top-performing gaits identified by the grid search algorithm. This further shows the effectiveness of Bayesian optimization in locating optimal gaits within a parameter space. This Figure also clearly illustrates the advantage of utilizing the lateral spine for achieving energy-efficient locomotion.</p>
+</section>
+<section id="references" class="level2 unnumbered">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-todorov2012mujoco" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">E. Todorov, T. Erez, and Y. Tassa, <span>“Mujoco: A physics engine for model-based control,”</span> in <em>2012 IEEE/RSJ international conference on intelligent robots and systems</em>, IEEE, 2012, pp. 5026–5033.</div>
+</div>
+<div id="ref-schulman2017proximal" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">J. Schulman, F. Wolski, P. Dhariwal, A. Radford, and O. Klimov, <span>“Proximal policy optimization algorithms,”</span> in <em>arXiv preprint arXiv:1707.06347</em>, 2017.</div>
+</div>
+<div id="ref-brockman2016openai" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">G. Brockman <em>et al.</em>, <span>“Openai gym,”</span> <em>arXiv preprint arXiv:1606.01540</em>, 2016.</div>
+</div>
+<div id="ref-stable-baselines3" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] </div><div class="csl-right-inline">A. Raffin, A. Hill, A. Gleave, A. Kanervisto, M. Ernestus, and N. Dormann, <span>“Stable-Baselines3: Reliable reinforcement learning implementations,”</span> <em>Journal of Machine Learning Research</em>, vol. 22, no. 268, pp. 1–8, 2021, Available: <a href="http://jmlr.org/papers/v22/20-1364.html">http://jmlr.org/papers/v22/20-1364.html</a></div>
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
